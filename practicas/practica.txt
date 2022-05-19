@@ -1,2 +1,6 @@
 esta es mi primera línea de texto de la clase 3
 agregamos una segunda línea a nuestro archivo 
+estamos viendo algunos comandos de git
+
+git checkout 
+git log 
