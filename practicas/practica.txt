@@ -4,3 +4,5 @@ estamos viendo algunos comandos de git
 
 git checkout 
 git log 
+
+vamos a seguir trabajando con comandos 
