@@ -6,3 +6,4 @@ git checkout
 git log 
 
 vamos a seguir trabajando con comandos 
+realizamos una modificacion a nuestro archivo 
