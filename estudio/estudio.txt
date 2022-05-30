@@ -1,5 +1,6 @@
 hoy estamos viendo la clase numero 5
 
+<<<<<<< HEAD
 seguimos viendo comandos git 
 
 git switch
@@ -12,3 +13,10 @@ nuestra rama nueva se llama imagen
 OTRA MODIFICACION AGREGADA A NUESTRO TEXTO ESTUDIO.TXT 
 
 una linea mas 
+=======
+
+
+estoy haciendo una rama nueva y se llama Equipo
+
+agrego mas lineas  en la nueva rama 
+>>>>>>> equipo
