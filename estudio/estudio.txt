@@ -8,3 +8,5 @@ s
 
 estamos trabajando sobre una rama nueva 
 nuestra rama nueva se llama imagen
+
+OTRA MODIFICACION AGREGADA A NUESTRO TEXTO ESTUDIO.TXT 
