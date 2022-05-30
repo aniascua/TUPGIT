@@ -21,6 +21,7 @@ agrego otra linea
 
 una linea mas 
 
+<<<<<<< HEAD
 ahora hice otra rama que se llama newbranch
 
 otro COMENTARIO
@@ -29,3 +30,10 @@ nueva linea
 
 otra mas
 otra
+=======
+agrego lineas en la rama nuevarama 
+
+vuelvo a trabajar agregando mas comentarios
+
+agregoooo 
+>>>>>>> nuevarama
