@@ -4,3 +4,4 @@ seguimos viendo comandos git
 
 git switch
 git checkout 
+s 
