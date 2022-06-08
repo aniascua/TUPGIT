@@ -1,12 +1,13 @@
 # En esta clase veremos la sentencia if/else
-'''condicion = False
-if condicion == True:
-    print('Condicion Verdadera')
-elif condicion == False:
-    print('Condicion Falsa')
-else:
-    print('Condición sin especificar')
-'''
+
+# '''condicion = False
+# if condicion == True:
+#     print('Condicion Verdadera')
+# elif condicion == False:
+#     print('Condicion Falsa')
+# else:
+#     print('Condición sin especificar')
+# '''
 
 #
 # #  CONVERSIÓN DE NÚMERO A TEXTO
@@ -23,7 +24,7 @@ else:
 # print(f'El número ingresado es: {num} - {numTexto}')
 
 
-condicion = True
+# condicion = True
 # if condicion:
 #     print('Condición Verdadera')
 # else:

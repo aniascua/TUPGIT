@@ -182,6 +182,8 @@ print(resultado)
 resultado = d >= b
 print(resultado)
 '''''''''
+
+
 '''''''''
 # Ejercicio: Número par o impar   Clase 27-04
 
@@ -201,6 +203,8 @@ if a % 2 == 0:
 else:
     print(f'El valor de a es: {a} es un número IMPAR')
 '''''''''
+
+
 '''''''''
 # Ejercicio: Determinar si es mayor de edad o no     Clase 27-04
 
@@ -219,6 +223,8 @@ if numero >= edadAdulto:
 else:
             print(f'MENOR DE EDAD')
 '''''''''
+
+
 '''''''''
 # Resolución del profe:
 edadAdulto = 18
@@ -229,6 +235,8 @@ if edadPersona >= edadAdulto:
 else:
     print(f'Tu edad es: {edadPersona}, sos menor de edad')
 '''''''''
+
+
 '''''''''
 # Operadores Lógicos AND    Clase 4/05
 a = False
@@ -244,6 +252,8 @@ print(result)
 result = not a
 print(result)
 '''''''''
+
+
 '''''''''
 # Ejercicio AND: Valor dentro de un rango   Clase 4-05
 
@@ -271,6 +281,7 @@ if vacaciones or diaDescanso:
 else:
     print('TIENE TRABAJO QUE HACER')
 '''''''''
+
 '''''''''
 # Mismo ejercicio pero con NOT
 vacaciones = False
@@ -280,6 +291,7 @@ if not (vacaciones or diaDescanso):  #NOT cambia el sentido de las cosas.
 else:
     print('TIENE TRABAJO QUE HACER')
 '''''''''
+
 '''''''''
 # Ejercicio Rango entre 20 y 30 años
 edad = int(input('DIGITE SU EDAD: '))
@@ -308,6 +320,7 @@ else:
     print('No estás dentro del rango de 20 a 30 años)
 
 '''''''''''
+
 '''''''''''
 # Ejercicio: El mayor de 2 números
 num1 = int(input('INGRESE EL PRIMER NÚMERO: '))
