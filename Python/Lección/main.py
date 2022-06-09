@@ -1,5 +1,5 @@
 '''''''''
-Clase 1 de variables
+Clase 1 de Python: variables
 
 miVariable = 3
 print(miVariable)

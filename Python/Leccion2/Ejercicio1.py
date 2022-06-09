@@ -28,7 +28,7 @@ print(f'EL RESULTADO DE BASE * ALTURA EN CENTÍMETROS, ES: {area}')
 '''
 
 '''
-# Área y longitud de un círculo
+# EJERCICIO 4: Área y longitud de un círculo
 area = 0
 radio = 0
 pi = 3.1415
@@ -48,7 +48,7 @@ print(f'El área del círculo es {area} y su longitud es: {longitud}')
 
 '''
 
-# INTERCAMBIO DE VALOR DE 2 VARIABLES
+# EJERCICIO 3: INTERCAMBIO DE VALOR DE 2 VARIABLES
 a = 10
 b = 5
 print(f'\nVARIABLE A: {a} Y VARIABLE B: {b}\n')
@@ -67,7 +67,7 @@ FÓRMULAS QUE SIRVEN:
 '''
 
 '''
-# SOLUCIÓN LÓGICA DE LA SIGUIENTE OPERACIÓN
+# EJERCICIO 2: SOLUCIÓN LÓGICA DE LA SIGUIENTE OPERACIÓN
 
 a = float(input(f'INGRESE EL VALOR DE A: '))
 b = float(input(f'INGRESE EL VALOR DE B: '))
