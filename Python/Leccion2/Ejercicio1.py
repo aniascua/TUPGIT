@@ -83,4 +83,3 @@ print(f'{resultado}')
 
 
 
-
