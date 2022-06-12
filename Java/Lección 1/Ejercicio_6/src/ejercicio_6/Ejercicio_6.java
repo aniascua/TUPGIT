@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 // Crear un nuevo proyecto llamado Ejercicio_6;
 
-
 /*
 public class Ejercicio_6 {
 
@@ -53,5 +52,5 @@ public class Ejercicio_6 {
         }
     }
 
-    }  
-}
+//    }  
+// }

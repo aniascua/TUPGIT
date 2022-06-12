@@ -32,6 +32,6 @@ public class Ejercicio_7 {
         salarioMensual = salario + comision + porcentajeVenta;
         
         System.out.println("\nEL SALARIO MENSUAL ES DE: $" +salarioMensual);
-       
+     
    }
 }

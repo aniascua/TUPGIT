@@ -30,9 +30,7 @@ public class Ejercicio_5 {
         suma = calificacion1 + calificacion2 + calificacion3;
         
         System.out.println("LA SUMA DE LAS CALIFICACIONES DA COMO RESULTADO: " + suma);
-        
-        
-        
+           
         // FORMA N°2 PARA HACER ESTE MISMO EJERCICIO:
         /*
         public class Ejercicio_5 {
