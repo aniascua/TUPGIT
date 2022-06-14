@@ -7,7 +7,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("INGRESE UN NÚMERO ENTRE 0 Y 10: ");
+            System.out.println("INGRESE UN NÚMERO ENTRE 0 Y 10: ");
 
         var calificacion = Integer.parseInt(entrada.nextLine());
 

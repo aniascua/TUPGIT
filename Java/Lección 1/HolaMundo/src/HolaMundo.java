@@ -428,7 +428,7 @@ public class HolaMundo {
         area = base * h;
         System.out.println("EL RESULTADO DE ÁREA: BASE POR ALTURA EN CM: = " + area);
 
-        
+ */       
         
         // EL MAYOR DE DOS NÚMEROS
         int a = 15;
@@ -439,7 +439,7 @@ public class HolaMundo {
         } else {
             System.out.println("B es mayor que A");
         }
-*/        
+      
         
         
         
