@@ -14,7 +14,7 @@
 # valor(está vacía), luego lo voy a ampliar
 # Este None es equivalente a null en otros lenguajes de programación como Java.
 
-'''
+
 mesIngresado = None
 
 mesIngresado = int(input(f'INGRESE UN MES COMPRENDIDO ENTRE LOS NÚMEROS 1 Y 12: '))
