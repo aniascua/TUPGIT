@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17e11ee8-727e-41dc-a0a3-276039f2312c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leccion2/Ejercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion2/Ejercicio3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lección3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estudio/estudio.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicas/leccion 1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicas/leccion 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practicas/practica.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

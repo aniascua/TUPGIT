@@ -74,3 +74,4 @@ if calificacion >= 0 and calificacion <= 5:
     print('nota: F')
 else:
     print(f'La nota ingresada es inválida, ingrese números del 0 al 10')
+''''''
