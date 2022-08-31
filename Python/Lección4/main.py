@@ -107,10 +107,10 @@ print('\n', cocina)
 # En set, no mantiene ningún índice. El orden es aleatorio.
 # Un elemento de tipo set es una colección sin orden y sin índices
 
-# Tipo SET
+# Tipo SET  -  Ascua Ana
 planetas = {'Marte', 'Júpiter', 'Venus'}
 print(planetas)  # los planetas se muestran en orden aleatorio
-print(len(planetas))  # usamos la función len = lenght (longitud)
+print(len(planetas))  # usamos la función len = length (longitud)
 
 # Revisar si un elemento existe dentro del set
 print('Iguana' in planetas)  # Iguana, está en planetas? No, false.
@@ -212,7 +212,7 @@ lista3.extend([7,8,9]) # función para agregar varios elementos a una lista
 print(lista3)
 
 print(lista3.index(5)) # función para ubicar en qué índice está el valor ingresado
-#print(lista3.index(0)) # nos da error porque 0 no figura en la lista
+# print(lista3.index(0)) # nos da error porque 0 no figura en la lista
 
 # Cómo saber cuántos valores repetidos hay dentro de una lista
 print(lista3.count(1))
@@ -226,7 +226,7 @@ lista = [1,2,3] * 2
 print(lista)
 
 lista3 = lista3 * 2
-#print(lista3)
+# print(lista3)
 
 # Métodos de ordenamiento, en Python es una función
 lista.sort()
@@ -242,3 +242,123 @@ print(tupla)
 print(4 in tupla) # Acción booleana, su respuesta es 1 o 0
 # Lo que podemos usar dentro de tuplas son: index, count, length
 # En tuplas se puede convertir de tupla a lista y de lista a tupla
+
+# Clase 30/08/2022
+# REPASO DE SET O CONJUNTO PARA DEFINIR UN CONJUNTO
+conjunto2 = set()
+conjunto1 = {'bye',}
+conjunto2.add(7)
+conjunto2.add('Hola')
+print(conjunto2)
+conjunto1.add('Hola')
+print(conjunto1)
+print(3 not in conjunto1) # Preguntamos si el número 3 NO está en conjunto1
+
+# Como hacer la igualdad de dos conjuntos
+print(conjunto1 == conjunto2) # Nos devuelve un booleano
+
+# Operaciones en conjuntos
+conjunto3 = conjunto1 | conjunto2 # La linea une los dos conjuntos
+print(conjunto3)
+
+conjunto3 = conjunto1 & conjunto2 # Que elemento tienen en común
+print(conjunto3)
+
+conjunto3 = conjunto1 - conjunto2 # Asigna el valor que está en el conjunto1 y no el conjunto2
+print(conjunto3)
+conjunto3 = conjunto2 - conjunto1
+print(conjunto3)
+
+conjunto3 = conjunto1 ^ conjunto2 # Elementos que no son compartidos
+print(conjunto3)
+
+conjunto3 = conjunto1 | conjunto2
+print(conjunto2.issubset(conjunto3)) # Acá preguntamos si un conjunto es subconjunto dentro de otro
+print(conjunto1.issubset(conjunto3))
+print(conjunto3.issubset(conjunto1))
+print(conjunto3.issubset(conjunto2))
+
+print(conjunto3.issuperset(conjunto1)) # preguntamos si elementos del conjunto1 están dentro del 3
+print(conjunto3.issuperset(conjunto2)) # Si es verdadero quiere decir que el conjunto3 es un superconjunto
+print(conjunto2.issuperset(conjunto3))
+
+# Cómo saber si los conjuntos son
+# disconexos = no comparten ningún elemento
+print(conjunto1.isdisjoint(conjunto2)) # no hay cosas en común entre los 2 conjuntos
+
+# Convertir un conjunto totalmente en inmutable
+conjunto1 = frozenset # Congela al conjunto, lo hace inmutable, inalterable
+# No se puede agregar, modificar, ni eliminar elementos del conjunto
+
+# Repaso de Diccionarios
+diccionarioNuevo = {'Azul': 'Blue', 'Rojo': 'Red','Verde':'Green','Amarillo':'Yellow'}
+print(diccionarioNuevo)
+
+# Como eliminar
+del (diccionarioNuevo['Azul'])
+print(diccionarioNuevo)
+
+# Los diccionarios pueden almacenar diferentes tipos de datos
+diccionario2 = {'Ana': {'edad': 26, 'Altura': 1.83}, 'Osvaldo': [45, 1.85], 'Natalia': [35, 1.67]}
+print(diccionario2)
+
+seleccionArgentina = {
+    10: {'Nombre': 'Leo Messi', 'Edad': 35, 'Altura': '1.70', 'Precio': '50m', 'Posicion': 'izquierda'},
+    22: {'Nombre': 'Pepito', 'Edad': 22, 'Altura': '1.67', 'Precio': '55m', 'Posicion': 'derecha'},
+    11: {'Nombre': 'Batman', 'Edad': 40, 'Altura': '1.80', 'Precio': '100m', 'Posicion': 'defensor'},
+    19: {'Nombre': 'Robin', 'Edad': 35, 'Altura': '1.67', 'Precio': '99m', 'Posicion': 'delantero'},
+    17: {'Nombre': 'Godzilla', 'Edad': 200, 'Altura': '300', 'Precio': '10000m', 'Posicion': 'derecha'},
+    21: {'Nombre': 'Pato Donald', 'Edad': 20, 'Altura': '1.20', 'Precio': '200m', 'Posicion': 'volante'},
+    9: {'Nombre': 'Bob Patiño', 'Edad': 38, 'Altura': '1.90', 'Precio': '10m', 'Posicion': 'derecha árbol de Bart'},
+    5: {'Nombre': 'Flanders', 'Edad': 45, 'Altura': '1.75', 'Precio': '20m', 'Posicion': 'vecino de Homero'},
+    8: {'Nombre': 'Lisa', 'Edad': 11, 'Altura': '1.20', 'Precio': '100m', 'Posicion': 'hermana de Bart'}
+}
+print('Tenemos cargados en el diccionario la cantidad de jugadores: ',end=' ')
+print(len(seleccionArgentina))
+
+# Pilas usando listas
+pila = [1, 2, 3]
+
+# Agregar elementos a la pila por el final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+# Sacamos elementos desde el final
+elementoBorrado = pila.pop() # Quita el último elemento y lo guarda en la variable
+print(f'Sacamos el elemento: {elementoBorrado}')
+print(f'La pila ahora quedó así: {pila}')
+
+# Colas con listas
+# Estructura de datos de tipo FiFo (First input/ First output)
+cola = ['Ana', 'Liliana', 'Jack', 'Homero']
+
+# Agregamos elementos al final de la cola
+cola.append('Natalia')
+cola.append('Lisa')
+print(cola)
+
+# Sacamos elementos de la cola
+seRetira = cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente: {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el último cliente: {seRetira}')
+print(cola)

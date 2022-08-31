@@ -52,7 +52,11 @@ public class EjercicioWhile01 {
             }
         }
         
+        int var = 50;
         
+        while (var > 30)
+                var = var - 7;
+        System.out.println("resultado:"+var);
         
     }
 }
