@@ -362,3 +362,7 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendido el último cliente: {seRetira}')
 print(cola)
+
+# Seguimos mostrando como recorrer un diccionario con el ciclo FOR
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
