@@ -11,6 +11,9 @@
 # Nombre: Legolas
 # Clase: Guerrero
 # Raza: Elfo Sindar
+
+lista = []
+
 diccionario = {
     1: {'Nombre' : 'Aragon',
     'Clase' : 'Guerrero',
@@ -27,4 +30,5 @@ diccionario = {
     5: {'Nombre' : 'Gollum',
         'Clase' : 'Desconocida',
         'Raza' : 'Hobbit'} }
-print(diccionario)
+lista.append(diccionario)
+print(lista)

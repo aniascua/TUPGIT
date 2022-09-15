@@ -3,7 +3,7 @@
 # elimine los elementos repetidos, por último, mostrar la lista.
 
 # Creamos una lista (2 maneras, 1 simplificada)
-lista = [1,2,3, "Ana", 2,2,3,"Alberto",3,"Ana"]
+lista = [1,2,3, "Ana", 2,2,3,"Pepe",3,"Ana"]
 # conjunto = set(lista) # Convertimos la lista a un conjunto tipo SET
 # lista = list(conjunto) # Convertimos el conjunto a una lista
 # print(lista) # Muestra todo menos los duplicados
