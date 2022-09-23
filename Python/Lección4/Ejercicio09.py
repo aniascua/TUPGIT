@@ -7,3 +7,12 @@
 # frase = vivir por siempre en paz
 # frase final = virirporsiempreenpaz
 # N° de caracteres = 20
+
+frase1 = input('INGRESE UNA FRASE: ')
+frase2 = " "
+for i in frase1:
+    if i != " ":
+        frase2 += 1
+frase1 = frase2
+print(f'\nFRASE FINAL: {frase1}')
+print(f'N° DE CARACTERES: {len(frase1)}')

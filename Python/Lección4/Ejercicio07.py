@@ -4,20 +4,30 @@
 # El proceso termina cuando el usuario acierta, y allí se debe mostrar el número de intentos
 import random
 
-contador = 1
+print('\t.: Juego de adivinar el número:.')
+numeroRandom = random.randint(1, 5)  # Toma del 1 al 5, literal, recorre solo esos números
+contador = 0
 
-numeroRandom = random.randint(1, 5)
-
-numIngresado = (int(input('INGRESE UN NÚMERO: \n')))
-
-while numIngresado != numeroRandom:
-    numIngresado = (int(input('INGRESE UN NÚMERO: \n')))
-    if (numIngresado < numeroRandom):
-        numIngresado = (int(input('INGRESE UN NÚMERO MAYOR: \n')))
-        elif numIngresado > numeroRandom
-        numIngresado = (int(input('INGRESE UN NÚMERO MENOR: \n')))
+while True:
+    numero = int(input('INGRESE UN NÚMERO: '))
+    contador += 1
+    if numero > numeroRandom:
+        print('\tNo es el número. Intentá con un número menor a ese')
+    elif numero < numeroRandom:
+        print('\tNo es el número. Intentá con un número mayor a ese..')
     else:
-        print('BINGO! ADIVINASTE EL NÚMERO ')
-        # print(f'NÚMERO DE INTENTOS REALIZADOS: ', contador)
-    contador = contador + 1
-print(f'NÚMERO DE INTENTOS REALIZADOS: ', contador)
+        print(f'BINGO! {numeroRandom} es el número correcto')
+        break  # Rompe el ciclo y el bucle
+
+# numIngresado = (int(input('INGRESE UN NÚMERO: \n')))
+#
+# while numIngresado != numeroRandom:
+#     numIngresado = (int(input('INGRESE UN NÚMERO: \n')))
+#     if numIngresado < numeroRandom:
+#         numIngresado = (int(input('INGRESE UN NÚMERO MAYOR: \n')))
+#     elif numIngresado > numeroRandom:
+#         numIngresado = (int(input('INGRESE UN NÚMERO MENOR: \n')))
+#     else:
+#         print('BINGO! ADIVINASTE EL NÚMERO ')
+#     contador = contador + 1
+# print(f'NÚMERO DE INTENTOS REALIZADOS: ', contador)
