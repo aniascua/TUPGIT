@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CicloWhile/CicloWhile.iml" filepath="$PROJECT_DIR$/CicloWhile/CicloWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioCiclos01/EjercicioCiclos01.iml" filepath="$PROJECT_DIR$/EjercicioCiclos01/EjercicioCiclos01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioCiclos02/EjercicioCiclos02.iml" filepath="$PROJECT_DIR$/EjercicioCiclos02/EjercicioCiclos02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioCiclos05/EjercicioCiclos05/EjercicioCiclos05.iml" filepath="$PROJECT_DIR$/EjercicioCiclos05/EjercicioCiclos05/EjercicioCiclos05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioCiclos05/EjercicioCiclos06/EjercicioCiclos06.iml" filepath="$PROJECT_DIR$/EjercicioCiclos05/EjercicioCiclos06/EjercicioCiclos06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lección 2.iml" filepath="$PROJECT_DIR$/.idea/Lección 2.iml" />
+    </modules>
+  </component>
+</project>
