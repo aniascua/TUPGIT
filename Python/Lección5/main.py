@@ -51,7 +51,7 @@ print(Arg)
 print(bottleC)  # Acá extraemos TODO del diccionario.
 
 
-# Paso de argumentos (funciones
+# Paso de argumentos (funciones)
 def mi_funcion2(name, lastName):
     print('Saludos a todos los que ven a través del canal de Youtube')
     print(f'Nombre: {name}, Apellido: {lastName}')
@@ -92,6 +92,4 @@ def listarNombres(*nombres):  # Normalmente se utiliza: *args (todos los argumen
 listarNombres('Ana', 'Luca', 'Jose', 'Claudia', 'Maria')
 listarNombres('Marcos', 'Daniel', 'Romina', 'Pepe', 'Carlos')  # Estos nombres se seguirán añadiendo a la lista anterior
 
-# de tarea queda terminar ejercicios 7 8 y 9 de la leccion 4,
-# y tambien terminar de ver clase 6 de labo2, git commit y git mobile. funciones.
-# ver ultima clase de JAVA
+# terminar de ver git commit y git mobile

@@ -8,4 +8,4 @@ lista = []  # lista vacía
 for i in cadena:
     if i not in lista:  # si el caracter aún no está en la lista, vamos a hacer lo siguiente:
         lista.append(i)  # lo agregamos a la lista
-    print(f'\nlista de caracteres sin repetir ninguno: \n{lista}')
+print(f'\nlista de caracteres sin repetir ninguno: \n{lista}')

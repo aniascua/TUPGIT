@@ -5,7 +5,6 @@
 # como argumentos.
 def sumar_valor(*args):  # Recibimos una cantidad de parámetros indefinidos
     resultado = 0
-    # pass
     # Iteramos cada elemento
     for valor in args:
         resultado += valor
