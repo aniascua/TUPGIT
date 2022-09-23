@@ -91,5 +91,3 @@ def listarNombres(*nombres):  # Normalmente se utiliza: *args (todos los argumen
 
 listarNombres('Ana', 'Luca', 'Jose', 'Claudia', 'Maria')
 listarNombres('Marcos', 'Daniel', 'Romina', 'Pepe', 'Carlos')  # Estos nombres se seguirán añadiendo a la lista anterior
-
-# terminar de ver git commit y git mobile
