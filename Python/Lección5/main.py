@@ -134,21 +134,3 @@ def factorial(numero):
 
 numero = int(input('INGRESE UN NÚMERO, TE DIRÉ SU FACTORIAL: '))
 print(f'EL FACTORIAL DEL NÚMERO {numero}, ES: {factorial(numero)}')
-
-# Ejercicio 4 con funciones (impuestos)
-# CALCULADORA DE IMPUESTOS: Crear una función para calcular el total de un pago incluyendo
-# un impuesto aplicado. (IVA)
-# Fórmula: pago_total = pago_sin_impuesto + pago_sin_impuesto * (impuesto/100)
-# Proporcione el pago sin impuesto: 1000
-# Proporcione el monto del impuesto: 21%
-# Pago con impuesto: xxxxx $
-
-
-# Ejercicio 5 con funciones (Celsius a Fahrenheite)
-# CONVERTIDOR DE TEMPERATURAS: Realizar 2 funciones para convertir de grados celsius a fahrenheit y viceversa
-# Investigar qué fórmulas necesita
-
-
-# Ejercicio 6: COMMIT EN GITHUB
-
-
