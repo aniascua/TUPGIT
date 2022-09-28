@@ -91,3 +91,64 @@ def listarNombres(*nombres):  # Normalmente se utiliza: *args (todos los argumen
 
 listarNombres('Ana', 'Luca', 'Jose', 'Claudia', 'Maria')
 listarNombres('Marcos', 'Daniel', 'Romina', 'Pepe', 'Carlos')  # Estos nombres se seguirán añadiendo a la lista anterior
+
+
+# Clase 27/09/2022
+def listarTerminos(nombre, *nombres, **terminos):  # nombre=arg fijo, *nombres = tupla, **argumentos = para diccionarios
+    for llave, valor in terminos.items():  # kwargs signicia: key-word argument
+        print(f'{llave} : {valor}')
+
+
+# listarTerminos()  # No recibe nada, nada se va a mostrar
+# listarTerminos(IDE='Integrated Development Environment', PK='Primary Key')
+# vamos a ver si le podemos ingresar otro tipo de datos:
+# listarTerminos(Nombre='Leo Messi')
+
+
+# Lista para recibir elementos:
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+
+
+nombres2 = ['Tito', 'Pedro', 'Carlos']  # lista con 3 nombres
+desplegarNombres(nombres2)
+desplegarNombres('Carla')
+# desplegarNombres(10, 11)  # No es un objeto iterable
+desplegarNombres(
+    (10, 11))  # si pongo 2 paréntesis, se convierte en TUPLA iterable. En un solo elemento, no olvidar la coma
+# y al ser una tupla iterable, va a mostrar los números 10 y 11
+desplegarNombres([22, 55])  # La convertimos en una lista
+
+
+# Funciones Recursivas
+def factorial(numero):
+    if numero == 1:  # Caso base
+        return 1
+    else:
+        return numero * factorial(numero - 1)  # Caso recursivo
+
+
+# resultado = factorial(5)  # Lo hacemos en código duro
+# print(f'El factorial del número 5 es: {resultado}')
+
+numero = int(input('INGRESE UN NÚMERO, TE DIRÉ SU FACTORIAL: '))
+print(f'EL FACTORIAL DEL NÚMERO {numero}, ES: {factorial(numero)}')
+
+# Ejercicio 4 con funciones (impuestos)
+# CALCULADORA DE IMPUESTOS: Crear una función para calcular el total de un pago incluyendo
+# un impuesto aplicado. (IVA)
+# Fórmula: pago_total = pago_sin_impuesto + pago_sin_impuesto * (impuesto/100)
+# Proporcione el pago sin impuesto: 1000
+# Proporcione el monto del impuesto: 21%
+# Pago con impuesto: xxxxx $
+
+
+# Ejercicio 5 con funciones (Celsius a Fahrenheite)
+# CONVERTIDOR DE TEMPERATURAS: Realizar 2 funciones para convertir de grados celsius a fahrenheit y viceversa
+# Investigar qué fórmulas necesita
+
+
+# Ejercicio 6: COMMIT EN GITHUB
+
+
