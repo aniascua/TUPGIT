@@ -5,8 +5,8 @@ public class Persona {
     // Atributos de la clase
     // PLANTILLA PARA RE-UTILIZAR CON OTROS OBJETOS
     //QUE VAMOS A INSTANCIAR (CREAR)
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
 
 // Métodos de la clase (acciones)
     public void obtenerInfo(){
