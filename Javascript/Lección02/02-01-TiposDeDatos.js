@@ -37,7 +37,7 @@ function miFuncion(){}
 
 // Tipo de dato Symbol
 var simbolo = Symbol("Esto es una cadena. Mi simbolo");
-console.log(typeof simbolo);
+console.log(typeof simbolo); 
 
  // Tipo de dato Clase
  class Persona{
@@ -48,3 +48,23 @@ console.log(typeof simbolo);
  }
 
  console.log(Persona);
+
+ // Tipo de dato undefined
+ var x;
+ console.log(typeof x);
+
+ x = undefined;
+ console.log(x);
+
+ // null: significa ausencia de valor
+var y = null; // null no es un tipo de dato, pero su origen es de tipo object
+console.log(typeof y);
+
+// Tipo de dato array y Empty String // los arreglos en js son de tipo object
+var autos = ['Peugeot', '308', '208', '3008'];
+console.log(autos);
+console.log(typeof autos); // QUOKKA: ctrl+shift+p - Preguntamos que tipo de dato es:
+
+var z = '';
+console.log(z); // string vacío, esto es una cadena vacía
+console.log(typeof z);
