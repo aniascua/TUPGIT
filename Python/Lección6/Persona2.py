@@ -1,4 +1,4 @@
-# Ascua Ana
+# ASCUA Ana
 # Clase 10 - 18/10/2022
 
 class Persona2:
