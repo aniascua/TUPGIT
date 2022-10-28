@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>510</x><y>110</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>460</x><y>0</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
 --
 -nombre: String
 -genero: char
@@ -10,14 +10,14 @@ direccion: String
 +getGenero(): char
 +setGenero(char): void
 +getDireccion(): String
-+setDireccion(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>500</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
++setDireccion(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>390</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
 --
 -idEmpleado: int
 -sueldo: double
 --
 +getIdEmpleado(): int
 +getSueldo(): double
-+setSueldo(double): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>510</y><w>210</w><h>180</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
++setSueldo(double): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>400</y><w>210</w><h>180</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
 --
 -idCliente: int
 -fechaRegistro: Date
@@ -27,6 +27,6 @@ direccion: String
 +getFechaRegistro(): Date
 +setFechaRegistro(Date): void
 +idVip(): boolean
-+setVip(boolean): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>370</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>370</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>370</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>370</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>290</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
++setVip(boolean): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>260</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>260</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>260</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>260</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>180</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>

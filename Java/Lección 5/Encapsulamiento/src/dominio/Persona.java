@@ -7,7 +7,7 @@ package dominio;
 
 public class Persona {
     // ATRIBUTOS:
-    private String nombre;
+    private String nombre;  // este recibe default o package (paquete) 
     private double sueldo;
     private boolean eliminado;
     
@@ -42,6 +42,15 @@ public class Persona {
         this.eliminado = eliminado;
     }
     
+    
+    
+    // Creamos el método To String: para luego llamarlo y usarlo en PersonaPrueba.java
+    // Para poder acceder y ver la info de nuestros atributos, debe ser tipo public
+    public String toString(){ // toString convierte en una cadena cada atributo
+        return "Persona [ nombre: "+this.nombre+
+                ", sueldo: $"+this.sueldo+
+                ", eliminado: "+this.eliminado+" ]";
+    }
     
     
 }
