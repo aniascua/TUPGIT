@@ -17,3 +17,13 @@ if(parImpar % 2 == 0){
 }else{
     console.log("El número es impar");
 }
+
+
+// Ejercicio: Dentro de un rango
+let dentroRango = 5; // Aquí vamos a ir cambiando el valor
+let valMin = 0, valMax = 10;
+if (dentroRango >= valMin && dentroRango <= valMax) {
+    console.log("El número está dentro del rango");
+} else {
+    console.log("El número está fuera del rango");
+}
