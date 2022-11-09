@@ -1,5 +1,11 @@
 # Clase 12 POO Parte 5 Herencia
-class figuraGeometrica:
+
+from abc import ABC, abstractmethod
+
+
+# ABC significa: Abstract Base Class, convierte una clase en abstracta
+
+class figuraGeometrica(ABC):
     def __init__(self, ancho, alto):
         if self._validar_valores(ancho):
             self._ancho = ancho
@@ -29,6 +35,10 @@ class figuraGeometrica:
     def alto(self, alto):
         if self._validar_valores(alto):
             self._alto = alto
+
+    @abstractmethod
+    def calcular_area(self):
+        pass
 
     def __str__(self):
         return f'figuraGeometrica [Ancho: {self._ancho}, Alto: {self._alto}]'
