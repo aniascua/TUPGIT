@@ -27,3 +27,41 @@ if (dentroRango >= valMin && dentroRango <= valMax) {
 } else {
     console.log("El número está fuera del rango");
 }
+
+
+// Ejercicio: Si el padre puede asistir al juego de su hijo
+let vacaciones = false, diaDescanso = false;
+if (vacaciones || diaDescanso) {
+    console.log("El padre puede asistir al juego de su hijo");
+}
+else {
+    console.log("El padre no puede asistir al juego de su hijo");
+}
+
+// Operador ternario
+let resultado2 = 3 > 2 ? "Verdadero" : "Falso";
+console.log(resultado2);
+
+// Convertir String a Number
+let miNumero = "20"; // Es una cadena String
+console.log(typeof miNumero);
+let miNumero2 = Number(miNumero); // Esta es una función para convertir a número
+console.log(typeof miNumero2);
+
+if(isNaN(miNumero2)){
+    console.log("No es un número");
+}else{
+    console.log("Es un número");
+}
+
+if(edad >= 18){
+    console.log("Puede votar");
+}else{
+    console.log("Muy joven para votar");
+}
+
+let resultado3 = edad2 >= 18 ? "Puede votar" : "Muy joven para votar";
+console.log(resultado3); 
+
+
+// Función isNaN
