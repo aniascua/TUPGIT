@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Tecnicatura3Python/Archivos/.idea/Archivos.iml" filepath="$PROJECT_DIR$/../../Tecnicatura3Python/Archivos/.idea/Archivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Tecnicatura3Python/Lección04/BD/.idea/BD.iml" filepath="$PROJECT_DIR$/../../Tecnicatura3Python/Lección04/BD/.idea/BD.iml" />
+      <module fileurl="file://$USER_HOME$/Tecnicatura3Python/Excepciones/.idea/Excepciones.iml" filepath="$USER_HOME$/Tecnicatura3Python/Excepciones/.idea/Excepciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lección10/.idea/Lección10.iml" filepath="$PROJECT_DIR$/../Lección10/.idea/Lección10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lección11/.idea/Lección11.iml" filepath="$PROJECT_DIR$/../Lección11/.idea/Lección11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lección12/.idea/Lección12.iml" filepath="$PROJECT_DIR$/../Lección12/.idea/Lección12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lección13/.idea/Lección13.iml" filepath="$PROJECT_DIR$/../Lección13/.idea/Lección13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lección14/.idea/Lección14.iml" filepath="$PROJECT_DIR$/../Lección14/.idea/Lección14.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lección4/.idea/Lección4.iml" filepath="$PROJECT_DIR$/../Lección4/.idea/Lección4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Lección5.iml" filepath="$PROJECT_DIR$/.idea/Lección5.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lección6/.idea/Lección6.iml" filepath="$PROJECT_DIR$/../Lección6/.idea/Lección6.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lección7/.idea/Lección7.iml" filepath="$PROJECT_DIR$/../Lección7/.idea/Lección7.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lección8/.idea/Lección8.iml" filepath="$PROJECT_DIR$/../Lección8/.idea/Lección8.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Lección9/.idea/Lección9.iml" filepath="$PROJECT_DIR$/../Lección9/.idea/Lección9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Tecnicatura3Python/.idea/Tecnicatura3Python.iml" filepath="$PROJECT_DIR$/../../Tecnicatura3Python/.idea/Tecnicatura3Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Tecnicatura3Python/Lección03/catalogo_peliculas/.idea/catalogo_peliculas.iml" filepath="$PROJECT_DIR$/../../Tecnicatura3Python/Lección03/catalogo_peliculas/.idea/catalogo_peliculas.iml" />
     </modules>
   </component>
 </project>
