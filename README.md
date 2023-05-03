@@ -17,4 +17,3 @@ Además, implemento la IA para mejorar mi eficiencia en la escritura de código,
 También estoy reafirmando mis conocimientos sobre bases de datos SQL y no SQL, adquiriendo nuevas habilidades en tecnologías como MongoDB y PostgreSQL para diseñar y administrar bases de datos mucho más eficientes. 
 
 ## 
-Este repositorio demuestra mi dedicación diaria para alcanzar mi meta de conseguir un trabajo en IT. Espero sea útil para otros interesados en programación y que los recruiters puedan ver mi progreso y aprendizaje como programadora. <br><strong>Gracias por leer!</strong>
