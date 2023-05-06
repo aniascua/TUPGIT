@@ -20,3 +20,6 @@ out/
 
 # Ignorar archivo README.md
 README.md
+
+# Ignorar archivo 01-03-funciones.js en el directorio Tecnicatura3JS/TSLección03/
+Tecnicatura3JS/TSLección03/01-03-funciones.js
