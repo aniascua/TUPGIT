@@ -1,8 +1,19 @@
 /Tecnicatura3Java/Lección03/ModificadoresDeAcceso/nbproject/private/
 /Tecnicatura3Java/Lección04/Sobreescritura/nbproject/private/
-.idea
-.iml
-.xml
-.mf
-/nbproject
-/out
+# Ignorar archivos con extension .idea
+.idea/
+
+# Ignorar archivos con extension .iml
+*.iml
+
+# Ignorar archivos con extension .xml
+*.xml
+
+# Ignorar archivos con extension .mf
+*.mf
+
+# Ignorar directorio nbproject
+nbproject/
+
+# Ignorar directorio out
+out/
