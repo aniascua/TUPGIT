@@ -1,4 +1,4 @@
-miFuncion(8, 2); // Esto se le conoce como hosting
+miFuncion(8, 2); // Esto se le conoce como hoisting
 
 function miFuncion(a, b) {
     //console.log("Sumamos: " + (a + b))")
