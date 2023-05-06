@@ -15,6 +15,3 @@ Además, implemento la IA para mejorar mi eficiencia en la escritura de código,
 <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" width="80"/> <img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" alt="PostgreSQL" width="45"/> <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png" alt="MongoDB" width="100"/>
 
 También estoy reafirmando mis conocimientos sobre bases de datos SQL y no SQL, adquiriendo nuevas habilidades en tecnologías como MongoDB y PostgreSQL para diseñar y administrar bases de datos mucho más eficientes. 
-
-## 
-Este repositorio demuestra mi dedicación diaria para alcanzar mi meta de conseguir un trabajo en IT. Espero sea útil para otros interesados en programación y que los recruiters puedan ver mi progreso y aprendizaje como programadora. <br><strong>Gracias por leer!</strong>
