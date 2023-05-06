@@ -17,3 +17,6 @@ nbproject/
 
 # Ignorar directorio out
 out/
+
+#Ignorar README.md
+*.md
