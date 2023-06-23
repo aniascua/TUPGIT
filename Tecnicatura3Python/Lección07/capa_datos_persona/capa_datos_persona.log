@@ -3,3 +3,155 @@
 07:41:38 PM:WARNING [logger_base.py:21] Mensaje a nivel warning
 07:41:38 PM:ERROR [logger_base.py:22] Mensaje a nivel error
 07:41:38 PM:CRITICAL [logger_base.py:23] Mensaje a nivel critical
+04:56:22 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+04:57:31 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+04:57:47 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+04:57:47 PM:DEBUG [Persona.py:58]  
+            Id Persona: 2, 
+            Nombre: Jose, 
+            Apellido: Pepe, 
+            Email: jpepe@mail.com
+        
+04:58:36 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+04:58:36 PM:DEBUG [Persona.py:58]  
+            Id Persona: Jose, 
+            Nombre: Pepe, 
+            Apellido: jpepe@mail.com, 
+            Email: None
+        
+04:59:07 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+04:59:07 PM:DEBUG [Persona.py:58]  
+            Id Persona: None, 
+            Nombre: Jose, 
+            Apellido: Pepe, 
+            Email: jpepe@mail.com
+        
+04:59:57 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+04:59:57 PM:DEBUG [Persona.py:58]  
+            Id Persona: None, 
+            Nombre: Jose, 
+            Apellido: Pepe, 
+            Email: jpepe@mail.com
+        
+05:00:15 PM:DEBUG [Persona.py:55]  
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@mail.com
+        
+05:00:15 PM:DEBUG [Persona.py:58]  
+            Id Persona: None, 
+            Nombre: Jose, 
+            Apellido: Pepe, 
+            Email: jpepe@mail.com
+        
+05:00:15 PM:DEBUG [Persona.py:61]  
+            Id Persona: 1, 
+            Nombre: None, 
+            Apellido: None, 
+            Email: None
+        
+06:14:37 PM:DEBUG [conexion.py:24] Conexión Exitosa: <connection object at 0x0000022605B8CD00; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+06:14:37 PM:DEBUG [conexion.py:37] Se abrió correctamente el cursor: <cursor object at 0x00000226040BD460; closed: 0>
+06:15:16 PM:DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x00000231E48F0D00; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+06:16:06 PM:DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x000002A146E40D00; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+06:20:11 PM:DEBUG [conexion.py:28] Conexión Exitosa: <connection object at 0x000001CD64D0CD00; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+06:20:11 PM:DEBUG [conexion.py:41] Se abrió correctamente el cursor: <cursor object at 0x000001CD632AD460; closed: 0>
+07:48:08 PM:DEBUG [conexion.py:28] Conexión Exitosa: <connection object at 0x0000023DC6079E00; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+07:48:08 PM:DEBUG [conexion.py:41] Se abrió correctamente el cursor: <cursor object at 0x0000023DC635FCA0; closed: 0>
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 1, 
+            Nombre: Kara, 
+            Apellido: Danvers, 
+            Email: kluthor@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 2, 
+            Nombre: Ana, 
+            Apellido: Ascua, 
+            Email: ana@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 3, 
+            Nombre: Juan, 
+            Apellido: Pepe, 
+            Email: juanpepe@hotmail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 5, 
+            Nombre: Romina, 
+            Apellido: Ayala, 
+            Email: ayalar@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 9, 
+            Nombre: Felipe, 
+            Apellido: Felix, 
+            Email: felix@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 11, 
+            Nombre: Ana, 
+            Apellido: Any, 
+            Email: any@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 12, 
+            Nombre: Homero, 
+            Apellido: Simpson, 
+            Email: homero@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 13, 
+            Nombre: Bart, 
+            Apellido: Simpson, 
+            Email: barto@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 15, 
+            Nombre: Pepe, 
+            Apellido: Español, 
+            Email: pepe@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 16, 
+            Nombre: Pepe, 
+            Apellido: Españolsadadad, 
+            Email: pepe@mail.com
+        
+07:48:09 PM:DEBUG [persona_dao.py:36]  
+            Id Persona: 17, 
+            Nombre: Alex, 
+            Apellido: Danvers, 
+            Email: alexdanvers22@mail.com
+        
