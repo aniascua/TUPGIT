@@ -1,12 +1,6 @@
-# psycopg2 as db # otra manera de importar el psycopg2 y darle un shortname
-# import psycopg2 as bd
-# from logger_base import log
-# import sys
-
+from psycopg2 import pool
 import psycopg2 as bd
-
 from capa_datos_persona.Persona import Persona
-from capa_datos_persona.persona_dao import PersonaDAO
 from logger_base import log
 import sys
 
@@ -16,56 +10,62 @@ class Conexion:
     _PASSWORD = 'Administrador'
     _PORT = '5432'
     _HOST = '127.0.0.1'
-    _conexion = None
-    _cursor = None
+    _MIN_CON = 1
+    _MAX_CON = 5
+    _pool = None
 
     @classmethod
     def obtenerConexion(cls):
-        if cls._conexion is None:
-            try:
-                cls._conexion = bd.connect(host=cls._HOST,
-                                           user=cls._USERNAME,
-                                           password=cls._PASSWORD,
-                                           port=cls._PORT,
-                                           database=cls._DATABASE)
-                log.debug(f'Conexión Exitosa: {cls._conexion}')
-                return cls._conexion
-            except Exception as e:
-                log.error(f'Ocurrio un error: {e}')
-                sys.exit()
-        else:
-            return cls._conexion
+        conexion = cls.obtenerPool().getconn()
+        log.debug(f'Conexión obtenida del pool: {conexion}')
+        return conexion
 
     @classmethod
     def obtenerCursor(cls):
-        if cls._cursor is None:
-            try:
-                cls._cursor = cls.obtenerConexion().cursor()
-                log.debug(f'Se abrió correctamente el cursor: {cls._cursor}')
-                return cls._cursor
-            except Exception as e:
-                log.error(f'Ocurrió un error: {e}')
-                sys.exit()
-        else:
-            return cls._cursor
+        pass
 
     @classmethod
-    def insertar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email)
-                cursor.execute(cls._INSERTAR, valores)
-                log.debug(f'Persona Insertada: {persona}')
-                return cursor.rowcount
+    def obtenerPool(cls):
+        if cls._pool is None:
+            try:
+                cls._pool = pool.SimpleConnectionPool(
+                    cls._MIN_CON,
+                    cls._MAX_CON,
+                    host=cls._HOST,
+                    user=cls._USERNAME,
+                    password=cls._PASSWORD,
+                    port=cls._PORT,
+                    database=cls._DATABASE
+                )
+                log.debug(f'Creación del pool exitosa: {cls._pool}')
+            except Exception as e:
+                log.error(f'Error al crear el pool de conexiones: {e}')
+                sys.exit()
+
+        return cls._pool
+
+    # 11.1 Método liberarConexion()
+    @classmethod
+    def liberarConexion(cls, conexion):
+        cls.obtenerPool().putconn(conexion)
+        log.debug(f'Regresamos la conexión del pool: {conexion}')
+
+    # 11.2 Método cerrarConexiones()
+    @classmethod
+    def cerrarConexiones(cls):
+        cls.obtenerPool().closeall()
+
 
 if __name__ == '__main__':
-    # Insertar un registro
-    persona1 = Persona(nombre='Pedro', apellido='Romero', email='promero@mail.com')
-    personas_insertadas = PersonaDAO.insertar(persona1)
-    log.debug(f'Personas insertadas: {personas_insertadas}')
+    conexion1 = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion1)
+    conexion2 = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion2)
+    conexion3 = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion3)
+    conexion4 = Conexion.obtenerConexion()
+    conexion5 = Conexion.obtenerConexion()
+    conexion6 = Conexion.obtenerConexion()
 
-    # Seleccionar objetos
-    personas = PersonaDAO.seleccionar()
-    Conexion.obtenerConexion()
-    Conexion.obtenerCursor()
+
 
