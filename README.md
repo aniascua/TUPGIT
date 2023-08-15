@@ -28,7 +28,9 @@ Durante mi aprendizaje, trabajé con diversos lenguajes de programación y utili
 - Visual Studio Code (vscode)
 - Aprovechando extensiones de vscode para mejorar el tipeo, la indentación, siguiendo las buenas prácticas, usando Git y GitHub para gestionar versiones y ramas, trabajando en equipo y preservando el repositorio original.
 
-Una muestra de esto se puede encontrar acá, en el repositorio dentro de la organización de la UTN: https://github.com/CodeSystem2022/HELLFISH_3er
+**Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:**
+- https://github.com/CodeSystem2022/HELLFISH_3er
+- https://github.com/CodeSystem2022/Hellfish_4to_semestre
 
 ## 📬 Contacto
 
