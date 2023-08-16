@@ -473,3 +473,40 @@
             Apellido: Torres, 
             Email: tmateo@mail.com
         
+01:05:18 PM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+01:05:18 PM:DEBUG [conexion.py:40] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002C7479D7BD0>
+01:05:18 PM:DEBUG [conexion.py:20] Conexión obtenida del pool: <connection object at 0x000002C749485470; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+01:05:18 PM:DEBUG [usuario_dao.py:21] Seleccionando usuarios
+01:05:19 PM:DEBUG [cursor_del_pool.py:18] Se ejecuta el método exit
+01:05:19 PM:DEBUG [cursor_del_pool.py:24] Commit de la transacción
+01:05:19 PM:DEBUG [conexion.py:51] Regresamos la conexión del pool: <connection object at 0x000002C749485470; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+01:05:19 PM:INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+01:05:19 PM:INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+01:05:36 PM:INFO [menu_app_usuario.py:21] Salimos de la aplicación, Hasta pronto!!
+01:06:51 PM:INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+01:06:51 PM:INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+01:06:58 PM:INFO [menu_app_usuario.py:21] Salimos de la aplicación, Hasta pronto!!
+01:07:08 PM:INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+01:07:08 PM:INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+01:07:10 PM:INFO [menu_app_usuario.py:21] Salimos de la aplicación, Hasta pronto!!
+01:16:22 PM:INFO [menu_app_usuario.py:19] Usuario: 1 jperez 123
+01:16:22 PM:INFO [menu_app_usuario.py:19] Usuario: 2 kgomez 456
+01:34:49 PM:INFO [menu_app_usuario.py:19] Usuario: 1 jperez 123
+01:34:49 PM:INFO [menu_app_usuario.py:19] Usuario: 2 kgomez 456
+01:41:12 PM:INFO [menu_app_usuario.py:19] Usuario: 1 jperez 123
+01:41:12 PM:INFO [menu_app_usuario.py:19] Usuario: 2 kgomez 456
+01:41:38 PM:INFO [menu_app_usuario.py:25] Usuario insertado: 1
+01:41:57 PM:INFO [menu_app_usuario.py:25] Usuario insertado: 1
+01:42:02 PM:INFO [menu_app_usuario.py:19] Usuario: 1 jperez 123
+01:42:02 PM:INFO [menu_app_usuario.py:19] Usuario: 2 kgomez 456
+01:42:02 PM:INFO [menu_app_usuario.py:19] Usuario: 3 1 1
+01:42:02 PM:INFO [menu_app_usuario.py:19] Usuario: 4 scooby 567
+01:42:14 PM:INFO [menu_app_usuario.py:37] Usuario eliminado: 1
+01:42:17 PM:INFO [menu_app_usuario.py:19] Usuario: 1 jperez 123
+01:42:17 PM:INFO [menu_app_usuario.py:19] Usuario: 2 kgomez 456
+01:42:17 PM:INFO [menu_app_usuario.py:19] Usuario: 4 scooby 567
+01:42:32 PM:INFO [menu_app_usuario.py:32] Usuario actualizado: 1
+01:42:34 PM:INFO [menu_app_usuario.py:19] Usuario: 1 jperez 123
+01:42:34 PM:INFO [menu_app_usuario.py:19] Usuario: 2 carla  456
+01:42:34 PM:INFO [menu_app_usuario.py:19] Usuario: 4 scooby 567
+01:43:27 PM:INFO [menu_app_usuario.py:39] Salimos de la aplicación, Hasta pronto!!
