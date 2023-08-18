@@ -1,12 +1,17 @@
-### Repositorio de mi Tecnicatura Universitaria en Programación - UTN FRSR 🖥️ 🚀 
-
 ## 👋 Hola!
 
-Te doy la bienvenida a este repositorio donde documenté mi camino a través de la Tecnicatura Universitaria en Programación en la UTN FRSR. Acá encontrarás una recopilación de ejercicios y trabajos realizados.
+Te doy la bienvenida al repositorio donde documenté mi camino a través de la Tecnicatura Universitaria en Programación en la UTN 🖥️ 🚀
+donde vas a encontrar:
 
-Aprendí a trabajar en equipos utilizando la metodología SCRUM, siguiendo buenas prácticas de programación, trabajando con sprints, versiones de control como Git Bash y GitHub Desktop.
+- Colección de ejercicios y trabajos
+- Experiencia en equipos con SCRUM y buenas prácticas
+- Utilización de sprints y herramientas Git Bash y GitHub Desktop
+- Mejora de tipografía y estilo con extensiones de VS Code
+- Gestión de versiones y ramas con Git y GitHub
+- Enfoque en el trabajo en equipo y la integridad del repositorio original
 
-## 🌐 Tecnologías y Herramientas utilizadas durante estos 3 años
+
+### 🌐 Tecnologías y Herramientas utilizadas durante estos 3 años
 
 
 <center>
@@ -182,7 +187,7 @@ Aprendí a trabajar en equipos utilizando la metodología SCRUM, siguiendo buena
     </td>
     <td align="center" width="25%">
       <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noreferrer">
-        <img src="https://logowik.com/content/uploads/images/pycharm6005.logowik.com.webp" alt="pycharm" width="60" height="60"/>
+        <img src="https://logowik.com/content/uploads/images/pycharm6005.logowik.com.webp" alt="pycharm" width="90" height="70"/>
       </a>
       <br>PyCharm
     </td>
@@ -265,11 +270,8 @@ Aprendí a trabajar en equipos utilizando la metodología SCRUM, siguiendo buena
   </tr>
 </table>
 
-***
 
-- Aprovechando extensiones de vscode para mejorar el tipeo, la indentación, siguiendo las buenas prácticas, usando Git y GitHub para gestionar versiones y ramas, trabajando en equipo y preservando el repositorio original
-
-**Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:**
+### Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:
 - https://github.com/CodeSystem2022/Hellfish_4to_semestre
 - https://github.com/CodeSystem2022/HELLFISH_3er
 ***
