@@ -54,14 +54,9 @@ Aprendí a trabajar en equipos utilizando la metodología SCRUM, siguiendo buena
       </a>
       <br>npm
     </td>
-    <td align="center" width="12.5%">
-      <!-- Placeholder for future backend technology -->
-    </td>
-    <td align="center" width="12.5%">
-      <!-- Placeholder for future backend technology -->
-    </td>
   </tr>
 </table>
+
 
 
 
