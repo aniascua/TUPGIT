@@ -272,12 +272,13 @@ donde vas a encontrar:
 
 
 ### Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:
+Links:
 - https://github.com/CodeSystem2022/Hellfish_4to_semestre
 - https://github.com/CodeSystem2022/HELLFISH_3er
 ***
 ## 📬 Contacto
 
-- **Correo:** anaascua5@yahoo.com.ar
-- **LinkedIn:** https://www.linkedin.com/in/anaascua
+- Correo: anaascua5@yahoo.com.ar
+- LinkedIn: https://www.linkedin.com/in/anaascua
 
 Gracias por visitar mi repo!
