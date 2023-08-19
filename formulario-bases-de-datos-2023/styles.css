@@ -1,0 +1,83 @@
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #9d9d9d;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Estilos para el contenido */
+.content {
+    position: relative;
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor aside#der */
+aside#der {
+    display: inline-block;
+    width: 350px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título h1 dentro de aside#der */
+aside#der h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Estilos para los campos de entrada */
+aside#der input[type="text"],
+aside#der input[type="password"],
+aside#der input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el botón de enviar */
+aside#der input[type="submit"] {
+    background: linear-gradient(45deg, #cb81b8, #7da5c4);
+    border: none;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: large;
+    width: 100%;
+    cursor: pointer;
+}
+
+aside#der input[type="submit"]:hover {
+    background: linear-gradient(45deg, #a4c7e1, #e6a8d7);
+}
