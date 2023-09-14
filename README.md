@@ -241,6 +241,7 @@ En estos proyectos, desempeñé un rol activo en:
   
 ## 📬 Contacto
 
+- Portfolio Profesional: https://ana-ascua-portfolio.000webhostapp.com/
 - Correo: anaascua5@yahoo.com.ar
 - LinkedIn: https://www.linkedin.com/in/anaascua
 
