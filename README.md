@@ -229,7 +229,7 @@ donde vas a encontrar:
 
 Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:
 
-- [Hellfish - 4to Semestre](https://github.com/CodeSystem2022/Hellfish_4to_semestre)
+- [Llamarada Moe - 4to Semestre UTN FRSR](https://github.com/CodeSystem2022/Llamarada_Moe)
 - [HELLFISH - 3er Semestre](https://github.com/CodeSystem2022/HELLFISH_3er)
 
 En estos proyectos, desempeñé un rol activo en:
