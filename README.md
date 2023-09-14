@@ -3,108 +3,91 @@
 Te doy la bienvenida al repositorio donde documenté mi camino a través de la Tecnicatura Universitaria en Programación en la UTN 🖥️ 🚀
 donde vas a encontrar:
 
-- Colección de ejercicios y trabajos
-- Experiencia en equipos con SCRUM y buenas prácticas
-- Utilización de sprints y herramientas Git Bash y GitHub Desktop
-- Mejora de tipografía y estilo con extensiones de VS Code
-- Gestión de versiones y ramas con Git y GitHub
-- Enfoque en el trabajo en equipo y la integridad del repositorio original
-
+- Enfoque en el trabajo y compromiso con el estudio
+- Colección de ejercicios y trabajos en la UTN
+- Experiencia en equipos, planificación de sprints con SCRUM y buenas prácticas
+- Gestión de versiones y ramas con Git y GitHub Desktop
 
 ### 🌐 Tecnologías y Herramientas utilizadas durante estos 3 años
 
-
 <center>
+<!-- BACKEND SECTION -->
 
 <table>
   <tr>
-    <td colspan="8" align="center">
+    <td colspan="4" align="center">
       <h3>Backend</h3>
     </td>
   </tr>
   <tr>
-    <td align="center" width="12.5%">
+    <td align="center" width="25%">
       <a href="https://www.java.com" target="_blank" rel="noreferrer">
         <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" alt="java" width="60"/>
       </a>
       <br>Java
     </td>
-    <td align="center" width="12.5%">
-      <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="60"/>
-      </a>
-      <br>C
-    </td>
-    <td align="center" width="12.5%">
+    <td align="center" width="25%">
       <a href="https://www.python.org" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60"/>
       </a>
       <br>Python
     </td>
-    <td align="center" width="12.5%">
-      <a href="https://www.php.net" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="60"/>
-      </a>
-      <br>PHP
-    </td>
-    <td align="center" width="12.5%">
+    <td align="center" width="25%">
       <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-        <img src="https://vistaran-tech.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/05/13104926/nodejs-logo.png" alt="nodejs" width="60"/>
+        <img src="https://vistaran-tech.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/05/13104926/nodejs-logo.png" alt="Node.js" width="60"/>
       </a>
       <br>Node.js
     </td>
-    <td align="center" width="12.5%">
-      <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" width="60"/>
+    <td align="center" width="25%">
+      <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="60"/>
       </a>
-      <br>npm
+      <br>MySQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60"/>
+      </a>
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.apachefriends.org/index.html" target="_blank" rel="noreferrer">
+        <img src="https://i.pinimg.com/originals/91/e7/06/91e7060cf174afaa561db15313c12fef.png" alt="XAMPP" width="45"/>
+      </a>
+      <br>XAMPP
     </td>
   </tr>
 </table>
 
-
-
-
-
-
+<!-- FRONTEND SECTION -->
 <table>
   <tr>
-    <td colspan="6" align="center">
+    <td colspan="4" align="center">
       <h3>Front-End</h3>
     </td>
   </tr>
   <tr>
-    <td align="center" width="16.66%">
+    <td align="center" width="25%">
       <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60"/>
       </a>
       <br>HTML5
     </td>
-    <td align="center" width="16.66%">
+    <td align="center" width="25%">
       <a href="https://www.javascript.com" target="_blank" rel="noreferrer">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript" width="60" height="60"/>
       </a>
       <br>JavaScript
     </td>
-    <td align="center" width="16.66%">
+    <td align="center" width="25%">
       <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/>
       </a>
       <br>CSS3
     </td>
-    <td align="center" width="16.66%">
-      <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="60" height="60"/>
-      </a>
-      <br>Bootstrap
-    </td>
-    <td align="center" width="16.66%">
-      <a href="https://angular.io/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular" width="60" height="60"/>
-      </a>
-      <br>Angular
-    </td>
-    <td align="center" width="16.66%">
+    <td align="center" width="25%">
       <a href="https://www.000webhost.com/" target="_blank" rel="noreferrer">
         <img src="https://ar.000webhost.com/static/default.000webhost.com/images/logo/400x400-red.png" alt="000webhost" width="60" height="60"/>
       </a>
@@ -112,35 +95,6 @@ donde vas a encontrar:
     </td>
   </tr>
 </table>
-
-<table>
-  <tr>
-    <td colspan="6" align="center">
-      <h3>Databases</h3>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33.33%">
-      <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="70" height="70"/>
-      </a>
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="33.33%">
-      <a href="https://mariadb.org/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="70" height="70"/>
-      </a>
-      <br>MariaDB
-    </td>
-    <td align="center" width="33.33%">
-      <a href="https://www.mysql.com/products/workbench/" target="_blank" rel="noreferrer">
-        <img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" alt="mysql" width="70" height="70"/>
-      </a>
-      <br>MySQL
-    </td>
-  </tr>
-</table>
-
 
 <!-- Tabla Version Control -->
 <table>
@@ -271,11 +225,20 @@ donde vas a encontrar:
 </table>
 
 
-### Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:
-Links:
-- https://github.com/CodeSystem2022/Hellfish_4to_semestre
-- https://github.com/CodeSystem2022/HELLFISH_3er
-***
+### Experiencia en SCRUM
+
+Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:
+
+- [Llamarada Moe - 4to Semestre UTN FRSR](https://github.com/CodeSystem2022/Llamarada_Moe)
+- [HELLFISH - 3er Semestre](https://github.com/CodeSystem2022/HELLFISH_3er)
+
+En estos proyectos, desempeñé un rol activo en:
+
+- Planificación de sprints y tareas
+- Colaboración estrecha con el equipo para lograr los objetivos
+- Seguimiento del progreso y gestión de los obstáculos
+- Entrega puntual de funcionalidades y mejoras
+  
 ## 📬 Contacto
 
 - Correo: anaascua5@yahoo.com.ar
