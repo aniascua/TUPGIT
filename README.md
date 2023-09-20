@@ -58,8 +58,14 @@ donde vas a encontrar:
       </a>
       <br>XAMPP
     </td>
+    <td align="center" colspan="2">
+      <a href="https://spring.io/projects/spring-boot" style="margin-top: 40%;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" alt="Spring Boot" width="130" height="130">
+      </a>
+    </td>
   </tr>
 </table>
+
 
 <!-- FRONTEND SECTION -->
 <table>
