@@ -215,20 +215,7 @@ donde vas a encontrar:
       </a>
       <br>Photoshop
     </td>
-    <td align="center" width="25%">
-      <a href="https://download.logo.wine/logo/Trello/Trello-Logo.wine.png" target="_blank" rel="noreferrer">
-        <img src="https://download.logo.wine/logo/Trello/Trello-Logo.wine.png" alt="trello" width="60"/>
-      </a>
-      <br>Trello
-    </td>
-    <td align="center" width="25%">
-      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png" target="_blank" rel="noreferrer">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png" alt="notion" width="60"/>
-      </a>
-      <br>Notion
-    </td>
-  </tr>
-</table>
+    
 
 
 ### Experiencia en SCRUM
