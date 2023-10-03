@@ -1,9 +1,13 @@
 import { pool } from "../db.js";
 
-export const listarTareas = async(req, res) => {
-    const resultado = await pool.query("SELECT * FROM tareas");
-    console.log(resultado);
-    return res.json(resultado.rows);
+export const listarTareas = async (req, res, next) => {
+    try {
+        const resultado = await pool.query("SELECT * FROM tareas");
+        console.log(resultado);
+        return res.json(resultado.rows);
+    } catch (error) {
+        next(error);
+    }
 }
 
 export const listarTarea = (req, res) => res.send('obteniendo tarea única');
