@@ -32,4 +32,7 @@ export const crearTarea = async (req, res, next) => {
 
 export const actualizarTarea = (req, res) => res.send('actualizando tarea única');
 
-export const eliminarTarea = (req, res) => res.send('eliminando tarea única');
+export const eliminarTarea = async (req, res) => {
+    const resultado = await pool.query("DELETE FROM tareas WHERE id = $1", [req.params.id]);
+    console.log(resultado);
+}
