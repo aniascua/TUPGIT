@@ -30,7 +30,28 @@ export const crearTarea = async (req, res, next) => {
 }
 
 
-export const actualizarTarea = (req, res) => res.send('actualizando tarea única');
+export const actualizarTarea = async (req, res) => {
+    try {
+        const { titulo, desc } = req.body;
+        const id = req.params.id;
+        
+        const result = await pool.query("UPDATE tareas SET titulo = $1, desc = $2 WHERE id = $3 RETURNING *", [titulo, desc, id]);
+
+        if (result.rowCount === 0) {
+            return res.status(404).json({
+                message: "No existe una tarea con ese ID"
+            });
+        }
+        
+        return res.json(result.rows[0]);
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({
+            message: "Hubo un error al actualizar la tarea"
+        });
+    }
+}
+
 
 export const eliminarTarea = async (req, res) => {
     try {
