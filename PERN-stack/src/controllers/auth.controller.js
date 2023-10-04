@@ -8,11 +8,14 @@ export const signup = async (req, res) => {
 
     try {
         const result = await pool.query("INSERT INTO users (name, email, pass) VALUES ($1, $2, $3) RETURNING *", [name, email, pass]);
+
         console.log(result);
-        return res.send("Usuario creado");
+        return res.json(result.rows[0]);
 
     } catch (error) {
-
+        if(error.code === "23505"){
+            return res.status(400).json({message: "El correo ya está registrado"})
+        }
     }
     
 };
