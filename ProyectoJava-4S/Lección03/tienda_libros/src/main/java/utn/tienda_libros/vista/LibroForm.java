@@ -8,7 +8,6 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
-
 @Component
 public class LibroForm extends JFrame {
     LibroServicio libroServicio;
