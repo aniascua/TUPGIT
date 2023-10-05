@@ -42,7 +42,6 @@ public class LibroForm extends JFrame {
         this.tablaModeloLibros = new JTable(tablaModeloLibros);
         listarLibros();
     }
-
     private void listarLibros() {
         // Limpiamos la tabla
         tablaModeloLibros.setRowCount(0);
