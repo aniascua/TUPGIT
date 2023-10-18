@@ -1,24 +1,42 @@
-package tienda_libros.vista;
+package utn.tienda_libros.vista;
 
-import org.springframework.beans.factory.annotation.AutoWired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import utn.tienda_libros.servicio.LibroServicio;
+import utn.tienda_libros.modelo.Libro;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 @Component
-public class LibroForm extends JFrame {
-    LibroServicio libroServicio;
+public class LibroFrom extends JFrame {
+    utn.tienda_libros.servicio.LibroServicio libroServicio;
     private JPanel panel;
-    private JTable TablaLibros;
+    private JTextField libroTexto;
+    private JTextField precioTexto;
+    private JTextField existenciaTexto;
+    private JTextField autorTexto;
+    private JButton modificarButton;
+    private JButton eliminarButton;
+    private JButton agregarButton;
+    private JTable tablaLibros;
+    private JTextField idTexto;
     private DefaultTableModel tablaModeloLibros;
 
-    @AutoWired
-    public LibroForm(LibroServicio libroServicio) {
+    @Autowired
+    public LibroFrom(utn.tienda_libros.servicio.LibroServicio libroServicio) {
         this.libroServicio = libroServicio;
         iniciarForma();
+        agregarButton.addActionListener(e -> agregarLibro());
+        tablaLibro.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                cargarLibroSeleccionado();
+            }
+        });
     }
 
     private void iniciarForma() {
@@ -26,32 +44,76 @@ public class LibroForm extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setSize(900, 700);
-        // para obtener las dimensiones de la ventana
+        //Para obtener las dimensiones
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension tamanioPantalla = toolkit.getScreenSize();
-        int x = (tamanioPantalla.width - getWidth()/2);
-        int y = (tamanioPantalla.height - getHeight()/2);
+        int x = (tamanioPantalla.width - getWidth() / 2);
+        int y = (tamanioPantalla.height - getHeight() / 2);
         setLocation(x, y);
+    }
+    private void agregarLibro() {
+        //Leer los valores del formulario
+        if (libroTexto.getText().equals("")) {
+            mostrarMensaje("Ingresa el nombre del libro");
+            libroTexto.requestFocusInWindow();
+            return;
+        }
+        var nombreLibro = libroTexto.getText();
+        var autor = autorTexto.getText();
+        var precio = Double.parseDouble(precioTexto.getText());
+        var existencias = Integer.parseInt(existenciaTexto.getText());
+        // Creamos el objeto libro
+        var libro = new Libro();
+        //libro.setNombreLibro(nombreLibro);
+        //libro.setAutor(autor);
+        //nombreLibro.setPrecio(precio);
+        //libro.setExistencias(existencias);
+        mostrarMensaje("Se agrego el libro...");
+        limpiarFormulario();
+        listarLibros();
+    }
+
+    private void cargarLibroSeleccionado() {
+        // Los índices de las columnas inician en 0
+        var renglon = tablaLibros.getSelectedRow();
+        if(renglon != -1) {
+            String idLibro = tablaLibros.getModel().getValueAt(renglon, 0).toString();
+        }
+    }
+
+    private void limpiarFormulario(){
+        libroTexto.setText("");
+        autorTexto.setText("");
+        precioTexto.setText("");
+        existenciaTexto.setText("");
+    }
+
+    private void mostrarMensaje(String mensaje) {
+        JOptionPane.showMessageDialog(this, mensaje);
     }
 
     private void createUIComponents() {
+        idTexto = new JTextField("");
+        idTexto.setVisible(false); // no será visible en el formulario
         this.tablaModeloLibros = new DefaultTableModel(0, 5);
         String[] cabecera = {"Id", "Libro", "Autor", "Precio", "Existencias"};
         this.tablaModeloLibros.setColumnIdentifiers(cabecera);
-        // Instanciar el objeto de JTable
-        this.tablaModeloLibros = new JTable(tablaModeloLibros);
+        // Instanciamos el objeto de JTable
+        this.tablaLibro = new JTable(tablaModeloLibros);
         listarLibros();
     }
+
     private void listarLibros() {
         // Limpiamos la tabla
         tablaModeloLibros.setRowCount(0);
         // Obtenemos los libros de la base de datos
         var libros = libroServicio.listarLibros();
-        // Iteramos cada libro
-        libros.forEach(libro) -> { // Función Lambda
-            Object [] renglonLibro = {
+        // Iteramos los libros
+        libros.forEach((libro) -> {//Funcion lambda
+            // Creamos cada registro para agregarlos a la tabla
+            Object[] renglonLibro = {
                     libro.getIdLibro(),
-                    libro.getNombreLibro(),
+                    libro.getNombre(),
                     libro.getAutor(),
                     libro.getPrecio(),
                     libro.getExistencias()
