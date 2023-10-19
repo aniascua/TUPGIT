@@ -19,8 +19,18 @@ function adios(nombre, otroCallback) {
     }, 1500);
 }
 
+function conversacion(nombre, veces, callback) {
+    hablar( function () {
+        conversacion()
+    })
+}
+
+
+/* Proceso Principal */
 console.log('Iniciando el proceso...');
-hola('Carlos', function (nombre) {
+hola('Ana', function (nombre) {
+});
+/*hola('Carlos', function (nombre) {
     hablar(function () {
         hablar(function () {
             hablar(function () {
@@ -32,4 +42,4 @@ hola('Carlos', function (nombre) {
             });
         });
     });
-});
+}); */
