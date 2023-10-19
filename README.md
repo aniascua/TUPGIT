@@ -9,7 +9,7 @@ donde vas a encontrar:
 - Gestión de versiones y ramas con Git y GitHub Desktop
 
 
-### Experiencia educativa
+## Experiencia educativa 📚
 
 Repositorios dentro de la organización de la UTN, donde están todos mis trabajos prácticos durante estos años
 
@@ -18,12 +18,12 @@ Repositorios dentro de la organización de la UTN, donde están todos mis trabaj
 
 En estos proyectos, desempeñé un rol activo en:
 
-- Planificación de sprints y tareas
-- Seguimiento del progreso
-- Entrega puntual de trabajos prácticos facultativos
+  - Planificación de sprints y tareas
+  - Seguimiento del progreso
+  - Entrega puntual de trabajos prácticos facultativos
 
 
-### 🌐 Tecnologías y Herramientas utilizadas durante estos 3 años
+## 🌐 Tech Stack 💻
 
 <center>
 <!-- BACKEND SECTION -->
