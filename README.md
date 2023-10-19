@@ -8,6 +8,21 @@ donde vas a encontrar:
 - Experiencia en equipos, planificación de sprints con SCRUM y buenas prácticas
 - Gestión de versiones y ramas con Git y GitHub Desktop
 
+
+### Experiencia educativa
+
+Repositorios dentro de la organización de la UTN, donde están todos mis trabajos prácticos durante estos años
+
+- [Llamarada Moe - 4to Semestre UTN FRSR](https://github.com/CodeSystem2022/Llamarada_Moe)
+- [HELLFISH - 3er Semestre](https://github.com/CodeSystem2022/HELLFISH_3er)
+
+En estos proyectos, desempeñé un rol activo en:
+
+- Planificación de sprints y tareas
+- Seguimiento del progreso
+- Entrega puntual de trabajos prácticos facultativos
+
+
 ### 🌐 Tecnologías y Herramientas utilizadas durante estos 3 años
 
 <center>
@@ -192,50 +207,11 @@ donde vas a encontrar:
   </tr>
 </table>
 
-<!-- Tabla Design y Agile/Scrum -->
-<table>
-  <tr>
-    <td colspan="2" align="center">
-      <h3>Design</h3>
-    </td>
-    <td colspan="2" align="center">
-      <h3>Agile/Scrum</h3>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="25%">
-      <a href="https://images.ctfassets.net/yzco4xsimv0y/4ktvkEPJ0SChqP69iZB4xR/85f99299f450eef01ef9f9ae50cceabc/Untitled_design.png?w=300&q=70" target="_blank" rel="noreferrer">
-        <img src="https://images.ctfassets.net/yzco4xsimv0y/4ktvkEPJ0SChqP69iZB4xR/85f99299f450eef01ef9f9ae50cceabc/Untitled_design.png?w=300&q=70" alt="canva" width="60"/>
-      </a>
-      <br>Canva
-    </td>
-    <td align="center" width="25%">
-      <a href="https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo-0.png" target="_blank" rel="noreferrer">
-        <img src="https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo-0.png" alt="photoshop" width="60"/>
-      </a>
-      <br>Photoshop
-    </td>
-    
 
 
-### Experiencia en SCRUM
-
-Una muestra de mi trabajo como SCRUM se puede ver acá, en los repositorios dentro de la organización de la UTN:
-
-- [Llamarada Moe - 4to Semestre UTN FRSR](https://github.com/CodeSystem2022/Llamarada_Moe)
-- [HELLFISH - 3er Semestre](https://github.com/CodeSystem2022/HELLFISH_3er)
-
-En estos proyectos, desempeñé un rol activo en:
-
-- Planificación de sprints y tareas
-- Colaboración estrecha con el equipo para lograr los objetivos
-- Seguimiento del progreso y gestión de los obstáculos
-- Entrega puntual de funcionalidades y mejoras
   
 ## 📬 Contacto
 
 - Portfolio Profesional: https://ana-ascua-portfolio.000webhostapp.com/
 - Correo: anaascua5@yahoo.com.ar
 - LinkedIn: https://www.linkedin.com/in/anaascua
-
-Gracias por visitar mi repo!
