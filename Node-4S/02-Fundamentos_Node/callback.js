@@ -5,3 +5,4 @@ function soyAsincrona() {
 console.log('Iniciando el proceso...');
 soyAsincrona();
 console.log('Terminando el proceso...');
+
