@@ -18,4 +18,3 @@ hola('Carlos', function() {
         console.log('Terminando el proceso...');
     });
 });
-
