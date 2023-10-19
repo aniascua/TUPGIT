@@ -22,7 +22,7 @@ function adios(nombre, otroCallback) {
 function conversacion(nombre, veces, callback) {
     if (veces > 0) {
         hablar(function () {
-            conversacion()
+            conversacion(nombre, --veces, callback);
         });
     } else {
         callback(nombre, callback);
@@ -32,6 +32,9 @@ function conversacion(nombre, veces, callback) {
 /* Proceso Principal */
 console.log('Iniciando el proceso...');
 hola('Ana', function (nombre) {
+    conversacion(nombre, 4, function () {
+        console.log('Terminando el proceso...');
+    });
 });
 /*hola('Carlos', function (nombre) {
     hablar(function () {
